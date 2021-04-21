@@ -63,7 +63,7 @@ button.addEventListener("click", ()=>{
         console.log();
         weather.innerText = "-";
         temp.innerText = "-";
-        $.getJSON("https://api.weatherbit.io/v2.0/current?city="+ input.value +"&key=APIKEY", 
+        $.getJSON("https://api.weatherbit.io/v2.0/current?city="+ input.value +"&key=c2e69ed2cbea4d4ea79a241a0cbe3d6d", 
             function(data){
                 if(!data){
                     error.style.color = "red";
